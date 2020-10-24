@@ -88,7 +88,6 @@ ul {
 .content__item {
   font-size: 24px;
   line-height: 36px;
-  margin-bottom: 8px;
 }
 
 .content__desc {
@@ -115,6 +114,10 @@ ul {
 }
 
 .work__list img {
+  margin-bottom: 8px;
+}
+
+.work__item {
   margin-bottom: 8px;
 }
 
