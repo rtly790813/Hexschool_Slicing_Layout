@@ -121,6 +121,10 @@ ul {
   margin-bottom: 8px;
 }
 
+.contact {
+  margin-bottom: 0;
+}
+
 .contact__media {
   padding: 0 12px;
   -webkit-transition: .2s;
