@@ -1,0 +1,170 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+a {
+  color: white;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.lh-42 {
+  line-height: 42px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.mb-68 {
+  margin-bottom: 68px;
+}
+
+.scatter-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 64px;
+  text-align: center;
+}
+
+.content__dark {
+  background-color: black;
+  color: white;
+}
+
+.content__title {
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.intro {
+  color: white;
+  width: 100%;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 958px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro__title {
+  font-size: 80px;
+  line-height: 94px;
+  font-weight: 500;
+}
+
+.intro__media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__list {
+  border-top: 1px solid #000;
+  display: inline-block;
+  padding: 32px 21px 56px;
+}
+
+.about__item::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+}
+
+.brand {
+  padding-bottom: 160px;
+}
+
+.works {
+  padding-bottom: 160px;
+}
+
+.works__name {
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.contact {
+  padding-bottom: 80px;
+}
