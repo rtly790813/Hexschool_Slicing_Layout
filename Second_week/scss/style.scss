@@ -11,6 +11,9 @@ img {
 }
 a {
     color: white;
+    &:hover {
+        opacity: .5;
+    }
 }
 
 // Font style
